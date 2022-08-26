@@ -38,11 +38,8 @@ jobs:
 #
     - name: Download models
       run: |
-        mkdir G2PWModel
-        cd G2PWModel
-        wget https://storage.googleapis.com/esun-ai/g2pW/G2PWModel-v2.zip
-        unzip G2PWModel-v2.zip
-        cd ../
+        wget https://storage.googleapis.com/esun-ai/g2pW/G2PWModel-v2-onnx.zip
+        unzip G2PWModel-v2-onnx.zip
 
         git lfs install
         git clone https://huggingface.co/bert-base-chinese

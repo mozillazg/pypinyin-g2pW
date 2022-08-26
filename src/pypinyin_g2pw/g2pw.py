@@ -10,14 +10,13 @@ from g2pw.api import G2PWConverter
 
 class G2PWPinyin(Pinyin):
     def __init__(self, model_dir='G2PWModel/', model_source=None,
-                 use_cuda=False, num_workers=None, batch_size=None,
+                 num_workers=None, batch_size=None,
                  turnoff_tqdm=True, enable_non_tradional_chinese=True,
-                 v_to_u=False, neutral_tone_with_five=False):
+                 v_to_u=False, neutral_tone_with_five=False, **kwargs):
         self._g2pw = G2PWConverter(
             model_dir=model_dir,
             style='pinyin',
             model_source=model_source,
-            use_cuda=use_cuda,
             num_workers=num_workers,
             batch_size=batch_size,
             turnoff_tqdm=turnoff_tqdm,

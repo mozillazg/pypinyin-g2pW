@@ -25,7 +25,7 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     install_requires=[
-        'g2pw==0.0.6', 'pypinyin>=0.47.1', 'opencc-python-reimplemented'],
+        'g2pw==0.1.0', 'pypinyin>=0.47.1'],
     packages=setuptools.find_packages(where="src"),
     python_requires='>=3.6, <4',
 )
