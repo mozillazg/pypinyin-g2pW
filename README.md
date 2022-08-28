@@ -1,6 +1,6 @@
 # pypinyin-g2pW
 
-基于 [g2pW 0.1.0](https://github.com/GitYCC/g2pW/tree/v0.1.0) 提升 [pypinyin](https://github.com/mozillazg/python-pinyin) 的准确性。
+基于 [g2pW](https://github.com/GitYCC/g2pW/) 提升 [pypinyin](https://github.com/mozillazg/python-pinyin) 的准确性。
 
 特点：
 
@@ -60,10 +60,11 @@
 
 ## 离线使用
 
-默认情况下，即便使用了离线的模型数据，程序使用的 transformers 模块仍旧会从 huggingface.co 下载部分模型元数据。
-可以通过设置环境变量 `TRANSFORMERS_OFFLINE=1` 和 `HF_DATASETS_OFFLINE=1` 禁用获取元数据的操作，实现完全离线使用的需求。
+当前版本暂不支持完全的离线使用，详见 [GitYCC/g2pW/pull/15](https://github.com/GitYCC/g2pW/pull/15)
+<!-- 默认情况下，即便使用了离线的模型数据，程序使用的 transformers 模块仍旧会从 huggingface.co 下载部分模型元数据。 -->
+<!-- 可以通过设置环境变量 `TRANSFORMERS_OFFLINE=1` 和 `HF_DATASETS_OFFLINE=1` 禁用获取元数据的操作，实现完全离线使用的需求。 -->
 
 
 ## 模型训练
 
-详见 [g2pW](https://github.com/GitYCC/g2pW/tree/v0.1.0#train-model) 官方文档中的说明。
+详见 [g2pW](https://github.com/GitYCC/g2pW/#train-model) 官方文档中的说明。
