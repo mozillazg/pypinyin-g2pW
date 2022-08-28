@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pypinyin-g2pw",
-    version="0.1.0",
+    version="0.2.0",
     author="mozillazg",
     author_email="mozillazg101@gmail.com",
     description="基于 g2pW 提升 pypinyin 的准确性。",
@@ -25,7 +25,7 @@ setuptools.setup(
     ],
     package_dir={"": "src"},
     install_requires=[
-        'g2pw==0.0.6', 'pypinyin>=0.47.1', 'opencc-python-reimplemented'],
+        'g2pw>=0.1.0', 'pypinyin>=0.47.1'],
     packages=setuptools.find_packages(where="src"),
     python_requires='>=3.6, <4',
 )

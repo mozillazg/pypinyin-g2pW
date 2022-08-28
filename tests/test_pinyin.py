@@ -6,7 +6,7 @@ from pypinyin import lazy_pinyin, Style
 
 from pypinyin_g2pw import G2PWPinyin
 
-model_dir = os.getenv('MODEL_DIR', 'G2PWModel/G2PWModel-v2/')
+model_dir = os.getenv('MODEL_DIR', 'G2PWModel/')
 model_source = os.getenv('MODEL_SOURCE', 'bert-base-chinese/')
 
 
