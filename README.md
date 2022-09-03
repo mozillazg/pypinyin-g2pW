@@ -61,7 +61,7 @@
 ## 离线使用
 
 默认情况下，即便使用了离线的模型数据，程序使用的 transformers 模块仍旧会从 huggingface.co 下载部分模型元数据。
-可以通过设置环境变量 `TRANSFORMERS_OFFLINE=1` 和 `HF_DATASETS_OFFLINE=1` 禁用获取元数据的操作，实现完全离线使用的需求。
+可以通过设置环境变量 `TRANSFORMERS_OFFLINE=1` 以及环境变量 `HF_DATASETS_OFFLINE=1` 禁用获取元数据的操作，实现完全离线使用的需求。
 详见 [transformers 官方文档](https://huggingface.co/docs/transformers/v4.21.2/en/installation#offline-mode)。
 
 
