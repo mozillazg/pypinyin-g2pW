@@ -8,7 +8,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="pypinyin-g2pw",
-    version="0.3.0",
+    version="0.2.0",
     author="mozillazg",
     author_email="mozillazg101@gmail.com",
     description="基于 g2pW 提升 pypinyin 的准确性。",
