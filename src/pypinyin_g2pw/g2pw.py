@@ -12,7 +12,7 @@ class G2PWPinyin(Pinyin):
     def __init__(self, model_dir='G2PWModel/', model_source=None,
                  num_workers=None, batch_size=None,
                  turnoff_tqdm=True, enable_non_tradional_chinese=True,
-                 v_to_u=False, neutral_tone_with_five=False, **kwargs):
+                 v_to_u=False, neutral_tone_with_five=False, tone_sandhi=False, **kwargs):
         self._g2pw = G2PWConverter(
             model_dir=model_dir,
             style='pinyin',
@@ -25,7 +25,7 @@ class G2PWPinyin(Pinyin):
         self._converter = Converter(
             self._g2pw, v_to_u=v_to_u,
             neutral_tone_with_five=neutral_tone_with_five,
-            tone_sandhi=False,
+            tone_sandhi=tone_sandhi,
         )
 
     def get_seg(self, **kwargs):
