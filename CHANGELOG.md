@@ -1,5 +1,10 @@
 # ChangeLog
 
+## [0.4.0] (2023-06-24)
+
+* 新增参数 ``tone_sandhi=False`` 。
+
+
 ## [0.3.0] (2022-09-03)
 
 * 依赖最新的 0.1.1 版本的 g2pW，实现完全离线使用的需求（详见 README）。
@@ -17,3 +22,4 @@
 
 [0.2.0]: https://github.com/mozillazg/pypinyin-g2pW/compare/v0.1.0...v0.2.0
 [0.3.0]: https://github.com/mozillazg/pypinyin-g2pW/compare/v0.2.0...v0.3.0
+[0.4.0]: https://github.com/mozillazg/pypinyin-g2pW/compare/v0.3.0...v0.4.0
