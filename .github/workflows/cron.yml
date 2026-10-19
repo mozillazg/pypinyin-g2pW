@@ -27,7 +27,7 @@ jobs:
 
     - name: Download models
       run: |
-        wget https://storage.googleapis.com/esun-ai/g2pW/G2PWModel-v2-onnx.zip
+        wget https://huggingface.co/YC-Chen/g2pW/resolve/main/G2PWModel-v2-onnx.zip
         unzip G2PWModel-v2-onnx.zip
 
         git lfs install

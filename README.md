@@ -16,7 +16,7 @@
 2. 下载并解压 G2PWModel:
 
     ```
-    wget https://storage.googleapis.com/esun-ai/g2pW/G2PWModel-v2-onnx.zip
+    wget https://huggingface.co/YC-Chen/g2pW/resolve/main/G2PWModel-v2-onnx.zip
     unzip G2PWModel-v2-onnx.zip
     ```
 3. 安装 [git-lfs](https://git-lfs.github.com/)。
